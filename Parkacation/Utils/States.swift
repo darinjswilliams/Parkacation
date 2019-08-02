@@ -9,13 +9,13 @@
 import Foundation
 
 
-class States: NSObject {
+struct States {
     
     
-    let StateArray: [ String : String] = [
+    
+    static let StateArray: [ String : String] = [
         "AL": "Alabama",
         "AK": "Alaska",
-        "AS": "American Samoa",
         "AZ": "Arizona",
         "AR": "Arkansas",
         "CA": "California",
@@ -23,10 +23,8 @@ class States: NSObject {
         "CT": "Connecticut",
         "DE": "Delaware",
         "DC": "District Of Columbia",
-        "FM": "Federated States Of Micronesia",
         "FL": "Florida",
         "GA": "Georgia",
-        "GU": "Guam",
         "HI": "Hawaii",
         "ID": "Idaho",
         "IL": "Illinois",
@@ -52,13 +50,11 @@ class States: NSObject {
         "NY": "New York",
         "NC": "North Carolina",
         "ND": "North Dakota",
-        "MP": "Northern Mariana Islands",
         "OH": "Ohio",
         "OK": "Oklahoma",
         "OR": "Oregon",
         "PW": "Palau",
         "PA": "Pennsylvania",
-        "PR": "Puerto Rico",
         "RI": "Rhode Island",
         "SC": "South Carolina",
         "SD": "South Dakota",
@@ -66,7 +62,6 @@ class States: NSObject {
         "TX": "Texas",
         "UT": "Utah",
         "VT": "Vermont",
-        "VI": "Virgin Islands",
         "VA": "Virginia",
         "WA": "Washington",
         "WV": "West Virginia",
